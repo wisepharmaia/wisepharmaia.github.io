@@ -1,0 +1,52 @@
+---
+# Front matter necesario para que Jekyll procese este archivo
+---
+
+@import "main";
+
+/* ======== Personalización Global ======== */
+
+/* Fondo del blog con imagen 4K */
+body {
+  background: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Barra lateral (gris neutro profesional) */
+#sidebar {
+  background-color: #2b2b2b;
+}
+
+/* Caja de cada post (blanca, con sombra sutil para resaltar) */
+#main-wrapper .post, 
+#main-wrapper .page {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Ajustar el fondo del contenido de posts */
+#main-wrapper {
+  background: rgba(255, 255, 255, 0.0); /* transparente para ver la imagen */
+}
+
+/* Links en azul profesional */
+a {
+  color: #007acc;
+}
+
+a:hover {
+  color: #005f99;
+}
+
+/* Botones y etiquetas */
+.btn, .tag {
+  background-color: #007acc;
+  color: white;
+  border: none;
+}
+
+.btn:hover, .tag:hover {
+  background-color: #005f99;
+}
