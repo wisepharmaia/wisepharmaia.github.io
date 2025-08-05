@@ -159,7 +159,7 @@ baseurl: ""
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+  syntax_highlighter_opts: # Rouge Optionss › https://github.com/jneen/rouge#full-options
     css_class: highlight
     # default_lang: console
     span:
