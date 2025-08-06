@@ -1,6 +1,6 @@
 # The Site Configuration
 
-# Import the themee
+# Import the theme
 theme: jekyll-theme-chirpy
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
