@@ -107,6 +107,10 @@ social_preview_image: # string, local or CORS resources
 # boolean type, the global switch for TOC in posts.
 toc: true
 
+image_width_tag: false 
+
+#PRueba para arreglar configuracion de imagenes
+
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
