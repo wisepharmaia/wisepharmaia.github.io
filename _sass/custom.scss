@@ -1,0 +1,20 @@
+/**
+ * Custom styles
+ * Este archivo se carga automáticamente.
+ */
+
+/* Ajustar imágenes para que no se corten */
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px; /* Opcional: bordes redondeados */
+}
+
+/* Cambiar el fondo del contenido principal (no afecta la barra lateral) */
+.post-content {
+  background-color: #f8f9fa; /* Fondo claro suave */
+  padding: 2rem;
+  border-radius: 12px;
+}
